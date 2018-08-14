@@ -1,10 +1,9 @@
-package com.example.shalomhalbert.problemsolving
+package com.example.shalomhalbert.problemsolving.august11
 
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.Parameterized
-import java.io.Serializable
 
 @RunWith(Parameterized::class)
 class UniqueMorseCodeWords(val words: List<String>, val output: Int) {
@@ -20,7 +19,7 @@ class UniqueMorseCodeWords(val words: List<String>, val output: Int) {
     @Test
     fun convertToMorseCode() {
         val keys = "abcdefghijklmnopqrstuvwxyz".toCharArray()
-        val values = arrayOf(".-","-...","-.-.","-..",".","..-.","--.","....","..",".---",
+        val values = arrayOf(".-","-...","-.-.","-..",".","..-.","--.","....","build/generated/source/apt",".---",
             "-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-",
             "-.--","--..")
 

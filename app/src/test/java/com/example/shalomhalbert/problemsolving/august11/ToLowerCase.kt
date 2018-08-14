@@ -1,4 +1,4 @@
-package com.example.shalomhalbert.problemsolving
+package com.example.shalomhalbert.problemsolving.august11
 
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
