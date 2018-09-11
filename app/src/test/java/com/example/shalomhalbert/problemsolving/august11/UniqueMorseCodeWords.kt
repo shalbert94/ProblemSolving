@@ -19,7 +19,7 @@ class UniqueMorseCodeWords(val words: List<String>, val output: Int) {
     @Test
     fun convertToMorseCode() {
         val keys = "abcdefghijklmnopqrstuvwxyz".toCharArray()
-        val values = arrayOf(".-","-...","-.-.","-..",".","..-.","--.","....","build/generated/source/apt",".---",
+        val values = arrayOf(".-","-...","-.-.","-..",".","..-.","--.","....","..",".---",
             "-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-",
             "-.--","--..")
 
